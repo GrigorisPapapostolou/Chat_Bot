@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","How are you","Is anyone there?","Hello","Good day"],
+      "responses": ["Hi there, what can I do for you?","Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "My pleasure"]
+    },
+    {
+      "tag": "instruments",
+      "patterns": ["Which instruments do you have?","What kinds of instruments are there?",
+	  "Do you have musical instruments such as piano, violin, guitar, drums and bouzouki?"],
+      "responses": ["We offer classic and traditional instruments. For more information visit our page."]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?","Do you accept Mastercard?","Can I pay with Paypal?","Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and Paypal"]
+    },
+    {
+      "tag": "lessons",
+      "patterns": ["Which days are vocal and theory lessons delivered?","When are lessons delivered?","I am interested for pianno lessons and violin."],
+      "responses": ["Classes are held mainly daily and on weekends. Please visit our page where you will find the weekly course schedule."]
+    },
+    {
+      "tag": "price",
+      "patterns": ["How much do the courses cost?","Can you tell me how much a month costs?"],
+      "responses": ["We have offers for special categories. Please contact us to learn more." ]
+    }
+  ]
+}
