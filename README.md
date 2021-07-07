@@ -10,11 +10,10 @@ To **train** the ML model, type in the terminal:
 ```console
 python train.py
 ```
-To **test** the ML model, type in the terminal:
+To **test** the ML model use:
 ```console
-python chat.py
+test.ipynb
 ```
-or you can use test.ipynb
 
 To **execute** the chatbot application, type in the terminal:
 ```console
